@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <title>FindJob - Главная</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Oswald:400,300" type="text/css">
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Здесь мы указываем, что используем разметку HTML5, кодировку utf-8, страница называется FindJob.
+    Также подключаем наш файл стилей и внешний файл со стилями шрифтов.
+    В последнем блоке в секции head мы подключаем специальный скрипт, который позволяет поддерживать Html5 теги в
+    браузерах Internet Explorer меньше 9 версии. Мета-тег X-UA-Compatible сообщает,
+    что в случае использования браузера Internet Explorer, он должен отразить сайт самым современным способом.-->
+</head>
+<body>
+<div id="wrapper">
+    <header>
+        <!--Логотип-->
+        <a href="#"><img class="logo" src="images/sample.png" alt="FindJob logo"></a>
+        <!--меню-->
+        <nav>
+            <ul class="top-menu">
+                <li class="active">jobs</li>
+                <li><a href="#">Companies</a></li>
+                <li><a href="#">Post a job</a></li>
+                <li><a href="#">Resume Search</a></li>
+                <li><a href="#">Pricing</a></li>
+            </ul>
+        </nav>
+        <!--Вход и регистрация-->
+        <div class="login">
+            <a href="#">Sign in</a>
+            <a href="#">Sign Up</a>
+        </div>
+    </header>
+    <div id="heading">
+        <!--форма поиска-->
+        <img class="searchBackground" src="#">
+        <p class="searchResult">Search result - 120 jobs found</p>
+        <form class="searchForm" name="search" action="#" method="get">
+            <input type="text" name="searchQuery" placeholder="Поиск"><button name="searchButton" type="submit">Найти</button>
+        </form>
+    </div>
+    <aside>
+        <nav>
+            <p class="filterTittle">Current Search</p>
+
+            <p class="filterTittle">Refine by City</p>
+            <ul class="aside-menu">
+                <li><input type="checkbox" name="option1" value="1">Cambridge (2)</li>
+                <li><input type="checkbox" name="option1" value="2">Durango (2)</li>
+                <li><input type="checkbox" name="option1" value="2">Atlanta (4)</li>
+                <li><input type="checkbox" name="option1" value="2">Saccramento (8)</li>
+                <li><input type="checkbox" name="option1" value="2">San Francisco (12)</li>
+            </ul>
+            <p class="filterTittle">Refine by Categories</p>
+            <ul class="aside-menu">
+                <li><input type="checkbox" name="option1" value="1">Cambridge (2)</li>
+                <li><input type="checkbox" name="option1" value="2">Durango (2)</li>
+                <li><input type="checkbox" name="option1" value="2">Atlanta (4)</li>
+                <li><input type="checkbox" name="option1" value="2">Saccramento (8)</li>
+                <li><input type="checkbox" name="option1" value="2">San Francisco (12)</li>
+                <li><input type="checkbox" name="option1" value="2">San Francisco (12)</li>
+            </ul>
+            <p class="filterTittle">Refine by Type</p>
+            <ul class="aside-menu">
+                <li><input type="checkbox" name="option1" value="1">Cambridge (2)</li>
+            </ul>
+            <p class="filterTittle">Refine by Salary Range</p>
+            <ul class="aside-menu">
+                <li><input type="checkbox" name="option1" value="1">Cambridge (2)</li>
+                <li><input type="checkbox" name="option1" value="2">Durango (2)</li>
+                <li><input type="checkbox" name="option1" value="2">Atlanta (4)</li>
+                <li><input type="checkbox" name="option1" value="2">Saccramento (8)</li>
+                <li><input type="checkbox" name="option1" value="2">San Francisco (12)</li>
+                <li><input type="checkbox" name="option1" value="2">San Francisco (12)</li>
+            </ul>
+        </nav>
+    </aside>
+    <section class="section__index">
+        <h2>Featured jobs</h2>
+    </section>
+</div>
+<footer>
+    <div id="footer">
+        <div id="twitter">
+            <h3>TWITTER FEED</h3>
+            <time datetime="2012-10-23"><a href="#">23 oct</a></time>
+            <p>
+                In ultricies pellentesque massa a porta. Aliquam ipsum enim, hendrerit ut porta nec, ullamcorper et nulla. In eget mi dui, sit amet scelerisque nunc. Aenean aug
+            </p>
+        </div>
+        <div id="sitemap">
+            <h3>SITEMAP</h3>
+            <div>
+                <a href="/home/">Home</a>
+                <a href="/about/">About</a>
+                <a href="/services/">Services</a>
+            </div>
+            <div>
+                <a href="/partners/">Partners</a>
+                <a href="/customers/">Support</a>
+                <a href="/contact/">Contact</a>
+            </div>
+        </div>
+        <div id="social">
+            <h3>SOCIAL NETWORKS</h3>
+            <a href="http://twitter.com/" class="social-icon twitter"></a>
+            <a href="http://facebook.com/" class="social-icon facebook"></a>
+            <a href="http://plus.google.com/" class="social-icon google-plus"></a>
+            <a href="http://vimeo.com/" class="social-icon-small vimeo"></a>
+            <a href="http://youtube.com/" class="social-icon-small youtube"></a>
+            <a href="http://flickr.com/" class="social-icon-small flickr"></a>
+            <a href="http://instagram.com/" class="social-icon-small instagram"></a>
+            <a href="/rss/" class="social-icon-small rss"></a>
+        </div>
+        <div id="footer-logo">
+            <a href="/"><img src="images/Logo_footer.png" alt="Whitesquare logo"></a>
+            <p>Copyright © 2012 Whitesquare. A <a href="http://pcklab.com">pcklab</a> creation</p>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
